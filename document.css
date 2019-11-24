@@ -1,0 +1,253 @@
+body{
+margin:0px;
+padding:0px;
+background-size: contain;
+background: #4B0082 url(images/bg.png) no-repeat fixed top;
+z-index: -1;
+}
+header{
+
+}
+.bgLOGO{
+position: fixed;
+left:15px;
+top:0px;
+z-index:1000;
+}
+.LOGO{
+position: fixed;
+left:80px;
+top:30px;
+z-index:4000;
+}
+
+.LIN{
+text-decoration:none;
+}
+#sele{
+	position: absolute;
+    left:900px;
+    top:60px;
+}
+.FONT{
+	color: white;
+}
+
+table {
+  position: fixed;
+  left:350px;
+  top:220px;
+  width: 8em;
+  margin-top: -2.5em;
+  font-size: 35px;
+  z-index:1000;
+}
+a{
+	color: white;
+	text-decoration:none;
+}
+a:hover{
+	background-color: #D8D3D3;		
+			color:#000000;
+			}
+p{
+	font-weight: bolder;
+	line-height: 35px;
+
+}
+h1{
+	line-height: 35px;
+}
+
+.MA{
+	position: fixed;
+	left:350px;
+     top:220px;
+	width: 1400px;
+	height: 30px;
+	background-color: #5599FF;
+	font-weight: bold;
+	font-size: 22px;
+	z-index:1000;
+}
+
+section{
+	position: absolute;
+	left:350px;
+     top:500px;	
+}
+
+.BAN {position:relative;}
+
+.BAN img {
+  position:absolute;
+  top:-150px;
+  left:-245px;
+  /* CSS3淡出淡入效果,1秒 */
+  -webkit-transition: opacity 1s ease-in-out;
+  -moz-transition: opacity 1s ease-in-out;
+  -o-transition: opacity 1s ease-in-out;
+  transition: opacity 1s ease-in-out;
+}
+
+
+.BAN img:nth-of-type(2):hover{
+  opacity:0; /滑鼠滑入時，透明度變0/
+}
+
+.infor{
+  position:relative;
+  top:-570px;
+  left:50px;
+  font-size: 20px;
+  line-height: 35px;
+}
+.infor1{
+  position:relative;
+  top:-570px;
+  right:-30px;
+  font-size: 20px;
+  line-height: 35px;
+}
+.infor2{
+  position:relative;
+  top:3000px;
+  left:350px;
+  font-size: 20px;
+  line-height: 35px;
+}
+.infor3{
+  position:relative;
+  top:-950px;
+  right:-80px;
+  font-size: 20px;
+  line-height: 35px;
+}
+
+.BGBG{
+	position:absolute;
+    top:940px;
+    left:80px;
+}
+.BGBH{
+	position:absolute;
+    top:840px;
+    left:965px;
+    padding:-20px;
+}
+
+#PROB{
+	position:absolute;
+    top:80px;
+    left:450px;
+}
+#NHH{
+ position:relative;
+  top:550px;
+  right:-100px;
+  z-index:1;
+}
+#KHH{
+  position:absolute;
+  top:550px;
+  right:100px;
+  z-index:1;
+}
+
+.BGBD{
+	position:absolute;
+    top:1570px;
+    left:80px;
+}
+
+.BGBE{
+	position:absolute;
+    top:2200px;
+    left:80px;
+}
+.BGBF{
+	position:absolute;
+    top:2830px;
+    left:80px;
+}
+
+.BGBR{
+	position:absolute;
+    top:2830px;
+    left:965px;
+    padding:-20px;
+
+}
+#BGBON{
+	position:absolute;
+    top:3020px;
+    left:0px;
+}
+
+
+img.life2{
+			width:520px;
+			height:520px;
+			
+		}
+		div.life {
+   			position: relative;
+   		    width:520px;
+			height:520px;
+			margin-top: 10%;
+            border:20px solid white;
+            position:relative;
+            left:-530px;
+		}
+		.comment {
+    		position: absolute;
+    		top: 0;
+    		left: 0;
+    		width:520px;
+			height:520px;
+    		background: rgb(101, 101, 101, 0.6);
+    		color: #ffffff;
+    		opacity: 0;
+		}
+		.comment h1{
+    		text-align: center;
+    		padding-top: 35%;
+			font-size: 50px;
+		}
+		.comment h3{
+    		text-align: center;
+		}
+		div.life a:hover .comment {
+    		opacity: 1;           
+		}
+		.a{
+			float:left;
+		}
+		.b{
+			float:right;
+		}
+.up{
+  position:fixed;
+  top:570px;
+  left:1350px;
+  z-index:2000;
+}
+
+.up:hover{
+	position: fixed;
+			bottom: 0;
+			right: 0;
+			width:110px;
+			height:110px;
+			background: rgb(101, 101, 101, 0.4);
+}
+
+footer{
+	color:white;
+	text-align:center;
+	background-color:black;
+	position:relative;
+	top: 5800px;
+    left: 0;
+}
+
